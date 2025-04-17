@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1078542509767",
+    "project_id": "talksy-e2bac",
+    "storage_bucket": "talksy-e2bac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078542509767:android:5577d902f99fa3fad0c0e2",
+        "android_client_info": {
+          "package_name": "com.example.zoom_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078542509767-b1djs1hbc4c3rbrdbchggt5fqr1ahsvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtlx18OeF4ZwioEmkfmrPgtKSfiwTRcAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078542509767-b1djs1hbc4c3rbrdbchggt5fqr1ahsvt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1078542509767-p2otspne47uj93hcgdup845vonfq9j50.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.zoomClone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
