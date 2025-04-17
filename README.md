@@ -1,4 +1,4 @@
-# zoom_clone
+# Talksy
 
 A new Flutter project.
 
