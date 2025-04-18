@@ -9,13 +9,20 @@ class JitsiMeetMethods {
     required String roomName,
     required bool isAudioMuted,
     required bool isVideoMuted,
+    String username = '',
   }) async {
     try {
+      String name;
+      if (username.isEmpty) {
+        name = _authMethods.user!.displayName!;
+      } else {
+        name = username;
+      }
       var options = JitsiMeetConferenceOptions(
         serverURL: "https://meet.ffmuc.net",
         room: roomName,
         userInfo: JitsiMeetUserInfo(
-          displayName: _authMethods.user!.displayName,
+          displayName: name,
           email: _authMethods.user!.email,
           avatar: _authMethods.user!.photoURL,
         ),
